@@ -14,7 +14,6 @@ jobs:
       GO111MODULE: "auto"
       GOPATH: ${{ github.workspace }}
       GOOS: linux
-
     steps:
       - name: Check out source code
         if: ${{ success() }}
