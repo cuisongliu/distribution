@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - main
 jobs:
   publish-amd64:
     name: Build and publish docker image
