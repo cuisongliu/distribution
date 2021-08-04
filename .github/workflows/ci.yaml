@@ -84,4 +84,4 @@ jobs:
           build-args: |
             VERSION=latest
             GOARCH=arm64
-          tags: distribution/distribution:latest
+          tags: ghcr.io/${{ github.actor }}/distribution/distribution:latest
